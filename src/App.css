@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #222;
 }
 
 .App-logo {
@@ -19,8 +23,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .Header{
+  display: flex;
+  padding: 10px 5px;
+}
+
+
+
+.App .tick-logo{
+  width :  32px;
+  height: 32px;
+}
+
+.App .Header .input-text{
+  margin-left: 20px;
+  width: 200px;
 }
 
 @keyframes App-logo-spin {
